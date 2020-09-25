@@ -1,0 +1,8 @@
+# Script Name: Vagrant
+# Author: Mario Pugh
+# Date of last revision: September 24, 2020
+# Description of purpose: Initiate Vagrant download
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "feelaware/scp-win10"
+end
